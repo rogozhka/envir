@@ -1,0 +1,16 @@
+env:
+  HOME: "${HOME2:-http://app-private.compute.i:5029}"
+  AUTH_KEYSTONE_URL: "http://app-private.compute.i:37557/"
+
+  DB_SERVER: "sql.query.compute"
+  DB_PORT: "5451"
+  DB_NAME: "alerting"
+  DB_USER: "alerting"
+  DB_SSL_MODE: "verify-full"
+  DB_MAX_CONNECTIONS: 10
+  ETCD_ENDPOINTS: |
+    "app-nvme1.compute.i:20333",
+    "app-nvme2.compute.i:20333",
+    "app-nvme4.compute.i:20333"
+envSecret:
+  MAILER_LOGIN: alerting-secret
