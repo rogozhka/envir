@@ -1,5 +1,8 @@
 **envir** is a tiny library inspired by Viper. Focused on declarative OOP composition. You can setup desired priority and extend processing logic by adding your own variable expander or even different sources.
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/rogozhka/envir)](https://goreportcard.com/report/github.com/rogozhka/envir)
+[![Releases](https://img.shields.io/github/release/rogozhka/envir/all.svg?style=flat-square)](https://github.com/rogozhka/envir/releases)
+[![LICENSE](https://img.shields.io/github/license/rogozhka/envir.svg?style=flat-square)](https://github.com/rogozhka/envir/LICENSE)
 
 Example: 
 
